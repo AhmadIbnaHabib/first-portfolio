@@ -248,6 +248,7 @@ nav ul{
     padding-left: 25px;
     margin-bottom: 25px;
     border: none;
+    outline: none;
 }
 .footer-email{
     width: 450px;
@@ -257,6 +258,7 @@ nav ul{
     padding-left: 25px;
     margin-bottom: 25px;
     border: none;
+    outline: none;
 }
 .footer-msg{
     width: 452px;
@@ -267,6 +269,7 @@ nav ul{
     padding-top: 25px;
     margin-bottom: 25px;
     border: none;
+    outline: none;
 }
 .form-container{
     padding-left: 300px;
@@ -275,4 +278,102 @@ footer{
     background-color: #FFF8F3;
     padding-top: 130px;
     padding-bottom: 100px;
+}
+
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .nav-name{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    nav ul{
+        margin: auto;
+        padding: 0;
+    }
+
+    ul{
+        width: 100%;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-sec{
+        margin: 0;
+    }
+
+    .header:first-child{
+        background-image: none;
+    }
+    .banner-cv-btn{
+        margin-bottom: 18px;
+    }
+
+    .main-section{
+        display: flex;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-div-1{
+        margin: 0;
+        border: none;
+    }
+
+    .main-about{
+
+    }
+
+    .main-about-des{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-about-details{
+        flex-direction: column;
+    }
+
+    .section-main{
+        margin: 0;
+    }
+
+    .card-container{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .main-experience-sec{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .form-container{
+        max-width: 550px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-text,
+    .footer-email,
+    .footer-msg{
+        width: 90%;
+    }
+
+
 }
